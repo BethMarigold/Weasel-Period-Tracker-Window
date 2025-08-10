@@ -113,38 +113,38 @@ def wpt(user_input, user_input2, user_input3, user_input4):
 
     if next > 365:
         next -= 365
-        result = (f"Project your next one to Weasel on 1/{int(next)}/{int(nextYear)}")
+        result = (f"01/{int(next)}/{int(nextYear)}")
     elif next > 334:
         next -= 334
-        result = (f"Project your next one to Weasel on 12/{int(next)}/{int(year3)}")
+        result = (f"12/{int(next)}/{int(year3)}")
     elif next > 304:
         next -= 304
-        result = (f"Project your next one to Weasel on 11/{int(next)}/{int(year3)}")
+        result = (f"11/{int(next)}/{int(year3)}")
     elif next > 273:
         next -= 273
-        result = (f"Project your next one to Weasel on 10/{int(next)}/{int(year3)}")
+        result = (f"10/{int(next)}/{int(year3)}")
     elif next > 243:
         next -= 243
-        result = (f"Project your next one to Weasel on 09/{int(next)}/{int(year3)}")
+        result = (f"09/{int(next)}/{int(year3)}")
     elif next > 212:
         next -= 212
-        result = (f"Project your next one to Weasel on 08/{int(next)}/{int(year3)}")
+        result = (f"08/{int(next)}/{int(year3)}")
     elif next > 181:
         next -= 181
-        result = (f"Project your next one to Weasel on 07/{int(next)}/{int(year3)}")
+        result = (f"07/{int(next)}/{int(year3)}")
     elif next > 151:
         next -= 151
-        result = (f"Project your next one to Weasel on 06/{int(next)}/{int(year3)}")
+        result = (f"06/{int(next)}/{int(year3)}")
     elif next > 120:
         next -= 120
-        result = (f"Project your next one to Weasel on 05/{int(next)}/{int(year3)}")
+        result = (f"05/{int(next)}/{int(year3)}")
     elif next > 90:
         next -= 90
-        result = (f"Project your next one to Weasel on 04/{int(next)}/{int(year3)}")
+        result = (f"04/{int(next)}/{int(year3)}")
     elif next > 59:
         next -= 59
-        result = (f"Project your next one to Weasel on 03/{int(next)}/{int(year3)}")
+        result = (f"03/{int(next)}/{int(year3)}")
     elif next > 31:
         next -= 31
-        result = (f"Project your next one to Weasel on 02/{int(next)}/{int(year3)}")
+        result = (f"02/{int(next)}/{int(year3)}")
     return result
